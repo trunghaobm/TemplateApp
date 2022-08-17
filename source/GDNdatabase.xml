@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDNdatabase</name>
+    </assembly>
+    <members>
+        <member name="T:GDNdatabase.GDNDB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:GDNdatabase.GDNDB.ConnectionString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:GDNdatabase.GDNDB.SQLconn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="serverName"></param>
+            <param name="databaseName"></param>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.Connect">
+            <summary>
+            Mở kết nối với CSDL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.isConnected">
+            <summary>
+            Kiểm tra kết nối với CSDL
+            </summary>
+            <returns>true nếu kết nối đang mở </returns>
+            <returns>false nếu kết nối đang đóng </returns>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.Disconnect">
+            <summary>
+            Đóng kết nối với CSDL
+            </summary>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.isDisconnected">
+            <summary>
+            Kiểm tra kết nối 
+            </summary>
+            <returns>true nếu kết nối đang đóng </returns>
+            <returns>false nếu kết nối đang mở </returns>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.GetDataTable(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="tableName"> tên bảng cần get</param>
+            <param name="conditions">
+            điểu kiện get bảng
+            nếu muốn get tất cả các dòng thì để [conditions = ""]
+            </param>
+            <returns>a table</returns>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.InsertRow_DataTable(System.String,System.Data.DataTable)">
+            <summary>
+            INSERT một dòng vào table
+            </summary>
+            <param name="tableName"> tên bảng cần sửa </param>
+            <param name="source">
+            bảng gồm một hàng có các giá trị cần add
+            </param>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.UpdateRow_DataTable(System.String,System.Data.DataTable)">
+            <summary>
+            UPDATE một dòng trong table
+            </summary>
+            <param name="tableName"> tên bảng cần sửa </param>
+            <param name="source">
+            bảng gồm một hàng có các giá trị cần update
+            </param>
+        </member>
+        <member name="M:GDNdatabase.GDNDB.DeleteRow_DataTable(System.String,System.Data.DataTable)">
+            <summary>
+            DELETE một dòng trong table
+            </summary>
+            <param name="tableName"> tên bảng cần xóa </param>
+            <param name="source">
+            một hàng chứa các key của dữ liệu cần xóa
+            </param>
+        </member>
+    </members>
+</doc>

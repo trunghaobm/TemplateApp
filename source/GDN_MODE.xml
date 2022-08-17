@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDN_MODE</name>
+    </assembly>
+    <members>
+        <member name="T:GDN_MODE.GDN_MODE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:GDN_MODE.GDN_MODE.CurrentMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:GDN_MODE.GDN_MODE.ModeView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.B_INSERT_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.B_UPDATE_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.B_DELETE_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.B_VIEW_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GDN_MODE.GDN_MODE.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GDN_MODE.GDN_MODE.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GDN_MODE.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:GDN_MODE.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GDN_MODE.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GDN_MODE.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
